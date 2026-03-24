@@ -8,5 +8,5 @@
 
 n = int(input()) # Read the value of n from the console
 
-for i in range(1, n + 1):
-    print(i, end=" ")
+for i in range(1, n +1):
+ print(i, end = " ")
