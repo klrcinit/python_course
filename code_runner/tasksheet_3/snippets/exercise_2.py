@@ -20,14 +20,14 @@
 n = int(input()) # Read value of n from the console
 
 i = 1
-total = 0
+sum = 0
 
 while i <= n:
     value = 7 * i
     print(value, end=" ")
-    total = total + value
+    sum = sum + value
     i = i + 1
 
 print()
-print(total)
+print(sum)
 

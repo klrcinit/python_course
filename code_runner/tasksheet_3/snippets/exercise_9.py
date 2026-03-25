@@ -9,3 +9,8 @@
 # Eingabe: 123; 53801	Resultat: 321; 10835
 
 
+number = int(input()) # Read number from the console
+
+while number > 0:
+    print(number % 10, end="")
+    number = number // 10
